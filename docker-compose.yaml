@@ -1,0 +1,11 @@
+version: "3.3"
+services:
+  myapp:
+    build: .
+    #platform: linux/amd64
+    ports:
+      - "8050:5000"
+    #volumes:
+      #- .:/app
+    #environment:
+    #FLASK_DEBUG: "true"
